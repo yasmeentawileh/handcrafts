@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(128, 128, 128, 0.356); 
+   }
+   h1 {
+    background-color: rgba(128, 128, 128, 0.356);
+   
+     font-size: 60px;
+     text-align: center;
+     font-style: oblique;
+     color: white;
+   }
+   nav ul li {
+   display: inline;
+   padding: 75px;
+   font-size: 25px;
+   margin:5px 5px ;
+   }
+   h2 {
+   color: rgba(0, 0, 255, 0.555);
+   font-size: 60px;
+   font-style: oblique;
+   
+   }
+   #ul2 {
+    color: rgba(0, 0, 255, 0.555);
+     font-size: 32px;
+     font-style: oblique;
+   }
+   footer {
+     color: white;
+     background-color: rgba(128, 128, 128, 0.356);
+     text-align: center;
+     font-style: oblique;
+   }
