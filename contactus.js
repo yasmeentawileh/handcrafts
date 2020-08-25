@@ -1,0 +1,19 @@
+var name = 'yasmeen';
+var age = 24;
+var homeaddres = "amman";
+var gender
+var day = new Date();
+var true1 =true; 
+console.log ('the name',name);
+console.log('the age',age);
+console.log('home',homeaddres);
+console.log('the gender',gender);
+console.log('the day',day);
+console.log('the status',true1);
+ var intersted=prompt('are you interested in handcrafts?')
+if (intersted=='yes'){
+    alert('welcome to the website')
+}else{
+    alert('see th website and you will change your opinion')
+}
+var intersted=confirm('welcome to the website')
