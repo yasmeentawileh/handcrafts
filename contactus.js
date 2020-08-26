@@ -25,7 +25,8 @@ var gender = function() {
 }else{
     document.write("<h3>we have a beautiful wallets for you</h3>")
 }
-}
+} 
+
 
 
 
