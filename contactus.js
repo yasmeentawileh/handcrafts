@@ -18,12 +18,26 @@ if (intersted == 'yes') {
 }
 
 
-var gender = function () {
+var gender = function () { 
+    var imgnum;
     var userinput = prompt('what is your gender?');
-    while (userinput != "female" && userinput != "male") {
+    while (userinput !== "female" && userinput !== "male") {
         console.log('gender', userinput)
-         userinput = prompt('you have to choose female or male')
-    }}
-    
-        
-        
+        userinput = prompt('you have to choose female or male')
+    }
+    var input1 = prompt('how many item you would like to add');
+    for (var i = 0; i < input1; i++) {
+        if (userinput === "female") {
+            imgnum = imgnum + "<img src='https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-824,/pub/media/catalog/product/r/s/rs_l_aztec_001_3.jpg?rnd=20200526195200'>"
+        }
+        else {
+            imgnum = imgnum + "<img src='https://i.pinimg.com/originals/1c/3d/45/1c3d4567b06d94308206e4cce1d993de.jpg'>"
+        }
+
+    } // end of for 
+    alert('done')
+    return imgnum;
+} // end of function 
+
+
+
