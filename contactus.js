@@ -16,7 +16,7 @@ if (intersted=='yes'){
 }else{
     alert('see the website and you will change your opinion')
 }
-var intersted=confirm('welcome to the website')
+
 
 var gender = function() {
     var userinput=prompt('what is your gender?' );
