@@ -14,6 +14,21 @@ console.log('the status',true1);
 if (intersted=='yes'){
     alert('welcome to the website')
 }else{
-    alert('see th website and you will change your opinion')
+    alert('see the website and you will change your opinion')
 }
 var intersted=confirm('welcome to the website')
+
+var gender = function() {
+    var userinput=prompt('what is your gender?' );
+    if(userinput=="female"){
+    alert('we have a beautiful bags for you')
+}else{
+    document.write("<h3>we have a beautiful wallets for you</h3>")
+}
+}
+
+
+
+
+
+
